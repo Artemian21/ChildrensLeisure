@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChildrensLeisure.Tests.BLL.Tests.AttractionServiceTests" Collapsed="true">
+    <Position X="7.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAAAAEIAAAABAAQAAAAAAAAAEEAAABAAAAIAAAA=</HashCode>
+      <FileName>BLL.Tests\AttractionServiceTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChildrensLeisure.Tests.BLL.Tests.EventProgramServiceTests" Collapsed="true">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAgAAAAAgAAAAAAAAgAACAAAAEAAQAAAAAAAAAA=</HashCode>
+      <FileName>BLL.Tests\EventProgramServiceTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChildrensLeisure.Tests.BLL.Tests.FairyCharacterServiceTests" Collapsed="true">
+    <Position X="11.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQiAAAAAAAAAAAkBAAAAAAAAAAAAEAAAAAAAAAAAAQ=</HashCode>
+      <FileName>BLL.Tests\FairyCharacterServiceTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChildrensLeisure.Tests.BLL.Tests.OrderServiceTests" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQiAAAABAAQAAAQAgAAAAAMAAAAAEAAAGAAEAKEACA=</HashCode>
+      <FileName>BLL.Tests\OrderServiceTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChildrensLeisure.Tests.BLL.Tests.ZoneServiceTests" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAUAAAAgAAgAAAAAQAAAAAAAEAAAAAAAABAAgA=</HashCode>
+      <FileName>BLL.Tests\ZoneServiceTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

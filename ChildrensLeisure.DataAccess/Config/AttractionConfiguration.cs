@@ -16,9 +16,11 @@ namespace ChildrensLeisure.DataAccess.Config
             builder.HasKey(a => a.Id);
             builder.Property(a => a.Name).IsRequired().HasMaxLength(100);
             builder.Property(a => a.Price).IsRequired().HasColumnType("decimal(18,2)");
+
             builder.HasOne(a => a.Zone)
                    .WithMany(z => z.Attractions)
-                   .HasForeignKey(a => a.ZoneId);
+                   .HasForeignKey(a => a.ZoneId)
+                   .OnDelete(DeleteBehavior.SetNull);
         }
     }
 }

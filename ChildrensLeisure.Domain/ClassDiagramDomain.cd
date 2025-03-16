@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChildrensLeisure.Domain.Models.AttractionModel" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAACAQAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AttractionModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChildrensLeisure.Domain.Models.EventProgramModel" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Models\EventProgramModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChildrensLeisure.Domain.Models.FairyCharacterModel" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\FairyCharacterModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChildrensLeisure.Domain.Models.OrderAttractionModel" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Models\OrderAttractionModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChildrensLeisure.Domain.Models.OrderFairyCharacterModel" Collapsed="true">
+    <Position X="3.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAEAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\OrderFairyCharacterModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChildrensLeisure.Domain.Models.OrderModel" Collapsed="true">
+    <Position X="5.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAACAAAAgAAAAAAAAABAAQCAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\OrderModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChildrensLeisure.Domain.Models.OrderZoneModel" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAACAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\OrderZoneModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChildrensLeisure.Domain.Models.ZoneModel" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ZoneModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ChildrensLeisure.Domain.Abstractions.IAttractionRepository" Collapsed="true">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAEAAAAAAAgAAAAAAAAAIIA=</HashCode>
+      <FileName>Abstractions\IAttractionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChildrensLeisure.Domain.Abstractions.IAttractionService" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAQAAAAAAAAAAgAAgAAAAAAAIAAAAA=</HashCode>
+      <FileName>Abstractions\IAttractionService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChildrensLeisure.Domain.Abstractions.IEventProgramRepository" Collapsed="true">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAEAAAAAAAgAAAAAAAAAIIA=</HashCode>
+      <FileName>Abstractions\IEventProgramRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChildrensLeisure.Domain.Abstractions.IEventProgramService" Collapsed="true">
+    <Position X="9" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAQAAAAAAAAQAAQAAAAAABAAA=</HashCode>
+      <FileName>Abstractions\IEventProgramService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChildrensLeisure.Domain.Abstractions.IFairyCharacterRepository" Collapsed="true">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAEAAAAAAAgAAAAAAAAAIIA=</HashCode>
+      <FileName>Abstractions\IFairyCharacterRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChildrensLeisure.Domain.Abstractions.IFairyCharacterService" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAIAgAA=</HashCode>
+      <FileName>Abstractions\IFairyCharacterService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChildrensLeisure.Domain.Abstractions.IOrderRepository" Collapsed="true">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAEAAAAAAAgAAAAAAAAAIIA=</HashCode>
+      <FileName>Abstractions\IOrderRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChildrensLeisure.Domain.Abstractions.IOrderService" Collapsed="true">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAgAAACAAAAAAAAAAACAAAAAEQAAgAAIGAACAA=</HashCode>
+      <FileName>Abstractions\IOrderService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChildrensLeisure.Domain.Abstractions.IUnitOfWork" Collapsed="true">
+    <Position X="3.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAEAAAAAABAAAAAAAACAIAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstractions\IUnitOfWork.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChildrensLeisure.Domain.Abstractions.IZoneRepository" Collapsed="true">
+    <Position X="5.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAEAAAAAAAgAAAAAAAAAIIA=</HashCode>
+      <FileName>Abstractions\IZoneRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChildrensLeisure.Domain.Abstractions.IZoneService" Collapsed="true">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAQA=</HashCode>
+      <FileName>Abstractions\IZoneService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

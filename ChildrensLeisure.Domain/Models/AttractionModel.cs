@@ -4,15 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ChildrensLeisure.DataAccess.Entity
+namespace ChildrensLeisure.Domain.Models
 {
-    public class Attraction
+    public class AttractionModel
     {
-        public Guid Id { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
         public string Name { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
         public Guid? ZoneId { get; set; }
-        public Zone? Zone { get; set; }
     }
 }

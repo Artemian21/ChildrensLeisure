@@ -11,10 +11,12 @@ namespace ChildrensLeisure.DataAccess.Entity
         public Guid Id { get; set; }
         public DateTime OrderDate { get; set; }
         public decimal TotalPrice { get; set; }
-        public List<Zone> Zones { get; set; }
-        public List<Attraction> Attractions { get; set; }
-        public List<FairyCharacter> FairyCharacters { get; set; }
-        public Guid EventProgramId { get; set; }
-        public EventProgram EventProgram { get; set; }
+
+        public List<OrderZone>? OrderZones { get; set; } = new();
+        public List<OrderAttraction>? OrderAttractions { get; set; } = new();
+        public List<OrderFairyCharacter>? OrderFairyCharacters { get; set; } = new();
+
+        public Guid? EventProgramId { get; set; }
+        public EventProgram? EventProgram { get; set; }
     }
 }

@@ -3,13 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildrensLeisure", "ChildrensLeisure.csproj", "{F2BD3B61-3D01-4864-9060-853A5C92C1E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChildrensLeisure", "ChildrensLeisure.csproj", "{F2BD3B61-3D01-4864-9060-853A5C92C1E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildrensLeisure.DataAccess", "..\ChildrensLeisure.DataAccess\ChildrensLeisure.DataAccess.csproj", "{B0BDDCDD-B8EC-4FDF-B952-72FBB1ECD0AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChildrensLeisure.DataAccess", "..\ChildrensLeisure.DataAccess\ChildrensLeisure.DataAccess.csproj", "{B0BDDCDD-B8EC-4FDF-B952-72FBB1ECD0AA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C7B82076-A47C-4D1D-B1CA-597B5E1A8F22} = {C7B82076-A47C-4D1D-B1CA-597B5E1A8F22}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildrensLeisure.BLL", "..\ChildrensLeisure.BLL\ChildrensLeisure.BLL.csproj", "{05FBEA40-3E40-4041-8AF8-E6A261886135}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChildrensLeisure.BLL", "..\ChildrensLeisure.BLL\ChildrensLeisure.BLL.csproj", "{05FBEA40-3E40-4041-8AF8-E6A261886135}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B0BDDCDD-B8EC-4FDF-B952-72FBB1ECD0AA} = {B0BDDCDD-B8EC-4FDF-B952-72FBB1ECD0AA}
+		{C7B82076-A47C-4D1D-B1CA-597B5E1A8F22} = {C7B82076-A47C-4D1D-B1CA-597B5E1A8F22}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildrensLeisure.Domain", "..\ChildrensLeisure.Domain\ChildrensLeisure.Domain.csproj", "{C7B82076-A47C-4D1D-B1CA-597B5E1A8F22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChildrensLeisure.Domain", "..\ChildrensLeisure.Domain\ChildrensLeisure.Domain.csproj", "{C7B82076-A47C-4D1D-B1CA-597B5E1A8F22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildrensLeisure.Tests", "..\ChildrensLeisure.Tests\ChildrensLeisure.Tests.csproj", "{0E19E1B1-C358-4AD3-A844-EF0F6BF7009A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +42,10 @@ Global
 		{C7B82076-A47C-4D1D-B1CA-597B5E1A8F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7B82076-A47C-4D1D-B1CA-597B5E1A8F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7B82076-A47C-4D1D-B1CA-597B5E1A8F22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E19E1B1-C358-4AD3-A844-EF0F6BF7009A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E19E1B1-C358-4AD3-A844-EF0F6BF7009A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E19E1B1-C358-4AD3-A844-EF0F6BF7009A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E19E1B1-C358-4AD3-A844-EF0F6BF7009A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
